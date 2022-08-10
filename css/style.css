@@ -1,0 +1,110 @@
+/* HEADER START */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+.header {
+  background-color: rgb(152, 170, 119);
+}
+.head {
+  text-align: center;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.navbar-items {
+  margin: 5px;
+}
+/* HEADER END */
+
+/* CONTENT START */
+.main-inf {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  background-color: darkgrey;
+}
+.container-1 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: darkgrey;
+  text-align: center;
+}
+.personal-inf-1__information {
+  color: black;
+  margin-top: 5px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.personal-inf-2__information {
+  color: black;
+  width: 250px;
+  margin-top: 5px;
+}
+
+.skills {
+  text-align: center;
+  margin-top: 10px;
+  background-color: darkkhaki;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: darkkhaki;
+}
+/* CONTENT-END */
+/* HOBBY START */
+.hobby {
+  text-align: center;
+  margin-top: 10px;
+  background-color: bisque;
+}
+.container-3 {
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+}
+/* HOBBY END */
+/* FOOTER START */
+.footer {
+  background-color: black;
+}
+.footer h3 {
+  color: white;
+  text-align: center;
+  font-weight: 100;
+}
+.img img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+.img {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* FOOTER END */
+/* АДАПТИВКА */
+@media all and (max-width: 770px) {
+  .container-1 {
+    flex-wrap: wrap;
+  }
+}
